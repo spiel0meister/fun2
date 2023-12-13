@@ -1,2 +1,2 @@
-# fun2.0
+# fun2
 The Fun programming language rewritten!
