@@ -42,7 +42,7 @@ impl Tokenizer {
         }
     }
 
-    fn peek(&mut self, offset: usize) -> Option<char> {
+    fn peek(&self, offset: usize) -> Option<char> {
         if self.index + offset > self.text.len() {
             None
         } else {
